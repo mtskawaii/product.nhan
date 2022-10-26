@@ -1,0 +1,99 @@
+.conteiner {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5pt;
+    left: 30%;
+    top: 7%;
+}
+
+.produto {
+    width: 300px;
+    height: 500px;
+    border-radius: 5pt;
+}
+
+.conteiner p {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    background-color: white;
+    font-size: 1rem;
+    top: 8%;
+    left: 55%;
+}
+
+.conteiner h1 {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    background-color: white;
+    font-size: 2.3rem;
+    top: 19%;
+    left: 55%;
+}
+
+.conteiner p.status {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    background-color: white;
+    font-size: 0.9rem;
+    top: 50%;
+    left: 55%;
+}
+
+.conteiner h2 {
+    position: absolute;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    background-color: white;
+    font-size: 20pt;
+    top: 72%;
+    left: 55%;
+}
+
+.conteiner s {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    background-color: white;
+    font-size: 12pt;
+    top: 73.5%;
+    left: 80%;
+}
+
+.conteiner button {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5pt;
+    background-color: hsl(158, 36%, 37%);
+    width: 200px;
+    height: 50px;
+    top: 85%;
+    left: 57%;
+}
+
+.conteiner button img {
+    background-color: hsl(158, 36%, 37%);
+    position: relative;
+    height: 15px;
+    left: 0.1%;
+}
+
+.conteiner button:hover {
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+}
+
+.conteiner button img:hover {
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+}
+
+.conteiner img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
